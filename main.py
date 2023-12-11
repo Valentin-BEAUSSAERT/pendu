@@ -10,9 +10,6 @@ largeur = 800
 hauteur = 600
 fenetre = pygame.display.set_mode((largeur, hauteur))
 
-#Définir un background 
-background1 = pygame.image.load("fond.png")
-
 # Définir les couleurs
 NOIR = (0, 0, 0)
 BLANC = (255, 255, 255)
@@ -20,7 +17,7 @@ ROUGE = (255, 0, 0)
 VERT = (0, 255, 0)
 
 # Liste des mots possibles
-liste_mots = ["nekfeu", "damso", "disiz la peste", "booba", "sopico", "kalash", "lomepal", "vald", "lorenzo", "s-crew", "alpha wann", "freeze corleone", "dinos", "remy", "columbine", "lujipeka", "iam"]
+liste_mots = ["nekfeu", "damso", "disiz la peste", "booba", "sopico", "kalash", "lomepal", "vald", "lorenzo", "s-crew", "alpha wann", "freeze corleone", "dinos", "remy", "columbine", "lujipeka", "iam", "Rohff",]
 
 # Choix du mot au hasard
 mot = random.choice(liste_mots)
